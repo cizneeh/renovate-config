@@ -1,0 +1,9 @@
+{
+  description: 'preset that makes PRs on the first day of the month(does not automerge)',
+  extends: ['config:recommended'],
+  configMigration: true,
+  timezone: 'Asia/Tokyo',
+  schedule: 'before 9am on the first day of the month',
+  prHourlyLimit: 0,
+  rangeStrategy: 'bump',
+}
