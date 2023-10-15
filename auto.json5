@@ -9,6 +9,7 @@
   prHourlyLimit: 0,
   rangeStrategy: 'bump',
   // メジャー含め全てオートマージ
+  // この共通設定ではメジャーとマイナーに限定したほうがいいかも
   automerge: true,
   autoApprove: true,
 }
